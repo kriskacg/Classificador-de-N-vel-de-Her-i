@@ -4,7 +4,7 @@
 
 Este projeto refere-se ao Desafio Classificador de Níveis de Heróis, primeiro desafio de projeto do Bootcamp de Lógica de Programação, da DIO em parceria com a GFT!🚀
 
-Para concluir o objetivo proposto neste projeto, realizado em Javascript, de armazenar valores e informações e apresentar os dados através de mensagens no console, utilizei:
+Para concluir o objetivo proposto neste projeto, realizado em JavaScript, de armazenar valores e informações e apresentar os dados através de mensagens no console, utilizei:
 
 - Variáveis;
 - Operadores,
@@ -40,9 +40,7 @@ O Herói de nome **{nome}** está no nível de **{nivel}**.
 
 ## 🦑 Desafio 2: Calculadora de Partidas Rankeadas 🐦‍🔥
 
-Este projeto refere-se ao Desafio de Calculadora de Partidas Rankeadas de Heróis, segundo desafio de projeto do Bootcamp de Lógica de Programação, da DIO em parceria com a GFT!🚀
-
-Para concluir o objetivo proposto neste projeto, em Javascript, para calcular as vitórias e derrotas e classificar os heróis de acordo com o saldo de vitórias, tendo o saldo como resultado através do cálculo (vitórias-derrotas), com retorno das informações apresentadas em mensagens no console, utilizei:
+Neste projeto, que é o segundo desafio do Bootcamp de Lógica de Programação, desenvolvido em JavaScript, com o objetivo de calcular as vitórias e derrotas e classificar os heróis de acordo com o saldo de vitórias, tendo o saldo como resultado através do cálculo (vitórias-derrotas), com retorno das informações apresentadas em mensagens no console, utilizei:
 
 - Variáveis;
 - Operadores,
@@ -73,3 +71,48 @@ No total são 16 heróis, e no código desenvolvido, é solicitado ao usuário i
 O Herói **{nome}**, tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**.
 
 [Resultado Desafio 2](./imagens/resultado_desafio2.png)
+
+## 🦑 Desafio 3: Escrevendo as classes de um Herói
+
+Este é o terceiro desafio de projeto do Bootcamp de Lógica de Programação, da DIO em parceria com a GFT!🚀
+O objetivo proposto, realizado em JavaScript, com chamada de input do usuário, foi o de criar uma classe genérica que represente os heróis e que possua as seguintes propriedades:
+
+- nome
+- idade
+- tipo (ex: guerreiro, mago, assassino, lutador)
+
+Além disso, teve a orientação de ter um método chamado atacar atendendo os seguientes requisitos:
+
+- exibir a mensagem: "o {tipo} atacou usando {ataque}"
+- aonde o {tipo} deve ser concatenado com o tipo que está na propriedade da classe
+- e no {ataque} deve seguir uma descrição diferente conforme o tipo, seguindo a tabela abaixo:
+
+se mago -> no ataque exibir (usou magia)
+se guerreiro -> no ataque exibir (usou espada)
+se lutador -> no ataque exibir (usou artes marciais)
+se assassino -> no ataque exibir (usou arma de fogo)
+
+Para a realização deste desafio, utilizei:
+
+- Variáveis;
+- Operadores;
+- Laços de repetição
+- Estruturas de decisões;
+- Funções;
+- Classes e Objetos.
+
+Para os meus heróis escolhi alguns dos personagens do jogo [League of Legends](https://www.leagueoflegends.com/pt-br/champions/) 🥰
+
+### 🦹‍♀️Lista de Heróis utilizados neste projeto
+
+Ahri, Amumu, Aurora, Bel'Veth, Briar, Caitlyn, Camille, Ekko, Gnar, Jinx, Kai'Sa, Katarina, Miss Forune, Rell, Renata Glasc e Vi.
+
+## Saída
+
+Ao final exibe uma mensagem:
+
+ "o {tipo} atacou usando {ataque}"
+  ex: mago atacou usando magia
+  guerreiro atacou usando espada
+
+[Resultado Desafio 3](./imagens/resultado_desafio3.png)
