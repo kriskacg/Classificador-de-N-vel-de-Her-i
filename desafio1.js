@@ -1,5 +1,21 @@
 const listaHerois = [
-    { nome: "Rell", xp: 750 }, { nome: "Amumu", xp: 950 }, { nome: "Briar", xp: 1500 }, { nome: "Miss Fortune", xp: 1950 }, { nome: "Camille", xp: 2500 }, { nome: "Ahri", xp: 3700 }, { nome: "Aurora", xp: 6200 }, { nome: "Kai'Sa", xp: 6900 }, { nome: "Jinx", xp: 7450 }, { nome: "Vi", xp: 7950 }, { nome: "Caitlyn", xp: 8700 }, { nome: "Gnar", xp: 8850 }, { nome: "Katarina", xp: 9200 }, { nome: "Bel'Veth", xp: 9450 }, { nome: "Renata Glasc", xp: 10200 }, { nome: "Ekko", xp: 11500 }]
+    { nome: "Rell", xp: 750 },
+    { nome: "Amumu", xp: 950 },
+    { nome: "Briar", xp: 1500 },
+    { nome: "Miss Fortune", xp: 1950 },
+    { nome: "Camille", xp: 2500 },
+    { nome: "Ahri", xp: 3700 },
+    { nome: "Aurora", xp: 6200 },
+    { nome: "Kai'Sa", xp: 6900 },
+    { nome: "Jinx", xp: 7450 },
+    { nome: "Vi", xp: 7950 },
+    { nome: "Caitlyn", xp: 8700 },
+    { nome: "Gnar", xp: 8850 },
+    { nome: "Katarina", xp: 9200 },
+    { nome: "Bel'Veth", xp: 9450 },
+    { nome: "Renata Glasc", xp: 10200 },
+    { nome: "Ekko", xp: 11500 }
+]
 
 function determinarNivel(xp) {
     if (xp <= 1000) {
