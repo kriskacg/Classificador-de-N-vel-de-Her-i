@@ -72,7 +72,7 @@ O Herói **{nome}**, tem de saldo de **{saldoVitorias}** está no nível de **{n
 
 [Resultado Desafio 2](./imagens/resultado_desafio2.png)
 
-## 🦑 Desafio 3: Escrevendo as classes de um Herói
+## 🦑 Desafio 3: Escrevendo as classes de um Herói 🐦‍🔥
 
 Este é o terceiro desafio de projeto do Bootcamp de Lógica de Programação, da DIO em parceria com a GFT!🚀
 O objetivo proposto, realizado em JavaScript, com chamada de input do usuário, foi o de criar uma classe genérica que represente os heróis e que possua as seguintes propriedades:
